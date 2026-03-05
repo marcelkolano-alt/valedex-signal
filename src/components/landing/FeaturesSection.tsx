@@ -1,5 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { FileSearch, Cpu, TrendingUp, ShieldAlert, Link, GitCompare } from "lucide-react";
+import { FileSearch, Cpu, TrendingUp, ShieldAlert, Link } from "lucide-react";
 
 const features = [
   { icon: FileSearch, title: "Automated Financial Extraction", desc: "Extract revenue, EBITDA, debt, and operating metrics directly from CIMs." },
@@ -7,7 +7,6 @@ const features = [
   { icon: TrendingUp, title: "Derived Metrics Engine", desc: "Automatically compute margins, growth rates, leverage ratios, and other investment indicators." },
   { icon: ShieldAlert, title: "Structural Flagging System", desc: "Instantly surface potential deal risks before deeper diligence begins." },
   { icon: Link, title: "Evidence-Linked Data", desc: "Every metric links back to the exact page and source in the document." },
-  { icon: GitCompare, title: "Cross-Deal Standardization", desc: "Compare metrics across multiple opportunities instantly." },
 ];
 
 export default function FeaturesSection() {
