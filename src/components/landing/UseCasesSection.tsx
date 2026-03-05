@@ -1,12 +1,10 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Building2, Search, Home, Users, Landmark } from "lucide-react";
+import { Building2, Home, Users } from "lucide-react";
 
 const cases = [
   { icon: Building2, title: "Private Equity Firms", desc: "Accelerate deal screening by automating first-pass CIM analysis across hundreds of opportunities." },
-  { icon: Search, title: "Search Funds", desc: "Evaluate more deals with limited resources by letting Signal handle financial reconstruction." },
   { icon: Home, title: "Family Offices", desc: "Quickly assess direct investment opportunities with structured, standardized deal intelligence." },
   { icon: Users, title: "Independent Sponsors", desc: "Move faster on proprietary deal flow with instant CIM analysis and risk flagging." },
-  { icon: Landmark, title: "Investment Banks", desc: "Streamline buy-side and sell-side workflows with automated deal document processing." },
 ];
 
 export default function UseCasesSection() {
