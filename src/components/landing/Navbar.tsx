@@ -32,7 +32,7 @@ export default function Navbar() {
           className="glow-primary bg-primary text-primary-foreground hover:bg-primary/90"
           onClick={() => scrollTo("cta")}
         >
-          Request Pilot
+          Book a Demo
         </Button>
       </div>
     </nav>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { ArrowRight } from "lucide-react";
 
 export default function FinalCTA() {
   const { ref, isVisible } = useScrollAnimation();
@@ -12,16 +13,17 @@ export default function FinalCTA() {
         }`}
       >
         <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          Flag First. Decide Faster.
+          See how it works on your deal flow.
         </h2>
         <p className="mb-10 text-lg text-muted-foreground">
-          Valedex Signal reduces first‑pass CIM review from hours to minutes.
+          Upload a CIM. Get structured metrics, derived insights, and evidence-linked flags in minutes.
         </p>
         <Button
           size="lg"
-          className="glow-primary-strong bg-primary px-10 text-primary-foreground hover:bg-primary/90"
+          className="glow-primary-strong bg-primary px-10 text-primary-foreground hover:bg-primary/90 gap-2"
         >
-          Request Pilot
+          Book a Demo
+          <ArrowRight className="h-4 w-4" />
         </Button>
       </div>
     </section>

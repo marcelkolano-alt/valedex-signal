@@ -1,12 +1,14 @@
 import Navbar from "@/components/landing/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
-import SignalIntro from "@/components/landing/SignalIntro";
 import CredibilityStrip from "@/components/landing/CredibilityStrip";
-import WorkflowSection from "@/components/landing/WorkflowSection";
+import WhyItMatters from "@/components/landing/WhyItMatters";
+import SignalIntro from "@/components/landing/SignalIntro";
 import ProductPreview from "@/components/landing/ProductPreview";
+import DealComparison from "@/components/landing/DealComparison";
 import FeaturesSection from "@/components/landing/FeaturesSection";
 import PhilosophySection from "@/components/landing/PhilosophySection";
 import SecuritySection from "@/components/landing/SecuritySection";
+import WorkflowSection from "@/components/landing/WorkflowSection";
 import UseCasesSection from "@/components/landing/UseCasesSection";
 import FinalCTA from "@/components/landing/FinalCTA";
 import Footer from "@/components/landing/Footer";
@@ -16,13 +18,15 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
-      <SignalIntro />
       <CredibilityStrip />
-      <WorkflowSection />
+      <WhyItMatters />
+      <SignalIntro />
       <ProductPreview />
+      <DealComparison />
       <FeaturesSection />
       <PhilosophySection />
       <SecuritySection />
+      <WorkflowSection />
       <UseCasesSection />
       <FinalCTA />
       <Footer />

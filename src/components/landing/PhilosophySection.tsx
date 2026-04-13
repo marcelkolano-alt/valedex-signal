@@ -10,13 +10,14 @@ export default function PhilosophySection() {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
         }`}
       >
+        <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">Philosophy</p>
         <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          AI for Deal Evaluation — Not Judgment Replacement
+          Structured Analysis — Not Summarization
         </h2>
         <p className="text-lg leading-relaxed text-muted-foreground">
-          Valedex removes the mechanical work of financial reconstruction. Investment teams still
-          make the decisions. Valedex simply provides structured information faster through Valedex
-          Signal — so analysts spend time on judgment, not data entry.
+          Valedex doesn't summarize documents or generate opinions. It extracts, computes, and flags — deterministically. 
+          Every metric is evidence-linked. Every ratio is derived from extracted inputs. Every flag has a source. 
+          Your team retains full judgment. Valedex simply removes the mechanical work that slows it down.
         </p>
       </div>
     </section>
